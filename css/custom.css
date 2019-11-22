@@ -1,0 +1,367 @@
+
+/******************************
+CSS Reset codes Starts
+******************************
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+sup{
+	vertical-align: text-top;
+	top: 8px !important;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	text-decoration: none !important;
+}
+/*
+******************************
+CSS Reset codes Ends
+******************************
+*/
+
+#top{
+	background-image: url('../images/top-background.jpg');
+	background-size: cover;
+	background-position: center 0px;
+	background-repeat: no-repeat;
+}
+
+/*menu starts*/
+#menu{
+	background-color: transparent;
+	z-index: 9999;
+	transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    border: 0px solid transparent;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar-nav{
+	margin-top: 7px;
+}
+.navbar-default .navbar-nav > li{
+	margin-right: 15px;
+	margin-top: 5px;
+}
+.navbar-default .navbar-nav > li > a{
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+
+}
+.navbar-brand{
+	max-width: 190px;
+	padding-top: 10px;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color: #007fff;
+}
+.download-menu{
+	border-radius: 25px;
+	background-color: #00b0ad;
+}
+.download-menu>a{
+	color: #fff !important;
+}
+
+/*menu ends*/
+
+/*section 2 starts*/
+#section-two{
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 75px;
+
+}
+#section-two>.container{
+
+}
+.s2p1{
+	margin-top: 90px;
+}
+.slogan-title{
+	font-size: 34px;
+	color: #000;
+	line-height: 130%;
+}
+.slogan-title span:last-child{
+	font-weight: bold;
+}
+.slogan-content{
+	line-height: 135%;
+	font-size: 13px;
+	color: #250000;
+	margin-top: 15px;
+	font-weight: 300;
+}
+.app-store{
+	margin-top: 20px;
+}
+/*section 2 ends*/
+
+/*features starts*/
+#features{
+	padding: 90px 0;
+	font-family: 'Montserrat', sans-serif;
+	background-image: url('../images/feature-bg.jpg');
+	background-size: cover;
+	background-position: center 0px;
+	background-repeat: no-repeat;
+}
+#features h1{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 500;
+	padding: 0 0 60px 0;
+}
+.features-parts{
+	margin-top: 20px;
+}
+.feature-content{
+	margin-top: 25px;
+}
+.feature-content h2{
+	color: #ec4f37;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	font-weight: 500;
+}
+.feature-content p{
+	color: #666;
+	line-height: 140%;
+	font-weight: 300;
+}
+/*fetaures ends*/
+
+/*best deals starts*/
+#best-deals{
+	background-color: #fafafa;
+	padding: 0 0 80px 0;
+	font-family: 'Montserrat', sans-serif;
+}
+.best-deals-parts{
+	margin-top: 150px;
+}
+.best-deals-content h2,.notifications-content h2{
+	font-size: 32px;
+	font-weight: 400;
+	color: #333;
+	line-height: 120%;
+	margin-bottom: 15px;
+}
+.best-deals-content p,.notifications-content p{
+	color: #333;
+	line-height: 150%;
+	font-weight: 300;
+	font-size: 16px;
+	margin-bottom: 55px;
+}
+.bd-1{
+	padding-left: 50px;
+}
+.bd-1-button,.bd-2-button,.notifications-button{
+	background-color: #ec4f37;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 20px;
+	border:0px solid;
+	font-size: 14px; 
+}
+.bd-2-button,.notifications-button{
+	background-color: #00b0ad;
+}
+/*best deals ends*/
+
+/*travels starts*/
+#travels{
+	padding-top: 70px;
+}
+#travels h1{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 32px;
+	color: #333333;
+	padding-bottom: 40px;
+}
+.travels-image{
+	max-width: 1280px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+/*travels ends*/
+
+/*notifications starts*/
+#notifications{
+	padding-top: 70px;
+	font-family: 'Montserrat', sans-serif; 
+}
+#notifications>.container>.row>.col-sm-9{
+	float: none;
+	margin:0 auto; 
+}
+.notifications-content{
+	margin-top: 120px;
+}
+
+/*notifications ends*/
+
+/*download starts*/
+#download{
+	background-image: url('../images/download-bg.png');
+	background-size: cover;
+	background-position: center 0px;
+	background-repeat: no-repeat;
+	padding:60px 0;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+#download h1{
+	font-size: 32px;
+	color: #fff;
+	margin-bottom: 30px;
+
+}
+/*download ends*/
+
+/*upper footer starts*/
+#upper-footer{
+	background-color: #333333;
+	padding: 35px 0 70px 0;
+}
+.upper-footer-parts{
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 35px;
+
+}
+.upper-footer-parts h1{
+	font-size: 26px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	color: #cccccc;
+}
+.upper-footer-parts p{
+	font-size: 15px;
+	line-height: 126%;
+	font-weight: 300;
+	color: #cccccc;
+}
+.upper-footer-parts p:nth-child(3){
+	margin-top: 12px;
+}
+.subscribe p{
+	margin-bottom: 10px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 24px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #FBFBFC;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 0px 0px transparent;
+    -webkit-box-shadow: inset 0 0px 0px transparent;
+}
+.btn {
+    padding: 14px 25px;
+    font-size: 14px;
+    background-color: #ec4f37;
+    border: 0px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+}
+.btn-default:hover,.btn-default:focus,.btn:focus{
+	background-color:  #ec4f37;
+	color: #fff;
+	outline: none;
+}
+input[type=text],textarea{
+    color:#666 !important;
+}
+::-webkit-input-placeholder {
+   color: #666 !important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #666 !important;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #666!important;  
+}
+
+:-ms-input-placeholder {  
+   color: #666 !important;  
+}
+/*upper footer ends*/
+
+/*footer starts*/
+#footer{
+
+	font-family: 'Montserrat', sans-serif;
+	background-color: #222222;
+	padding: 25px 0 20px 0;
+}
+.copyright{
+	color: #9c9c9c;
+	font-size: 14px;
+	margin-top: 13px;
+}
+.app-store-footer{
+	text-align: right;
+}
+
+/*footer ends*/
